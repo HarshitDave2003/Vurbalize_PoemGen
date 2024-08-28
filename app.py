@@ -4,13 +4,16 @@ from flask_socketio import SocketIO, emit
 import google.generativeai as genai
 import json
 import re
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
 socketio = SocketIO(app, cors_allowed_origins="*")
-
-API_KEY = 'AIzaSyCaUiFv6X4DuUx2Lk84_Pg1-j27NymfDHc'  # Replace this with your actual API key
-genai.configure(api_key=API_KEY)
+API_KEY = os.environ.get('API_KEY')
+  # Replace this with your actual API key
+genai.configure(api_key=API_KEY)    
 
 @app.route('/')
 def home():

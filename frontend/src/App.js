@@ -4,7 +4,7 @@ import { useSpring, animated } from '@react-spring/web';
 import { useNavigate } from 'react-router-dom';
 import './App.css';
 
-const socket = io('http://localhost:5000');
+const socket = io('https://vurbalize-poemgen.onrender.com');
 
 function App() {
   const [poemWords, setPoemWords] = useState([]);

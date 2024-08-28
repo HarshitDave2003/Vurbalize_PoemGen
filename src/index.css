@@ -1,0 +1,49 @@
+/* Global styles for dark mode */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+
+h1, p {
+  color: #e0e0e0;
+}
+
+button {
+  background-color: #333;
+  color: #e0e0e0;
+  border: 1px solid #444;
+}
+
+input {
+  background-color: #333;
+  color: #e0e0e0;
+  border: 1px solid #444;
+}
+
+textarea {
+  background-color: #333;
+  color: #e0e0e0;
+  border: 1px solid #444;
+}
+/* Style for the formatted poem */
+.poem-container h2 {
+  font-size: 1.5em;
+  color: #4a4a4a;
+}
+
+.poem-container p {
+  font-style: italic;
+  font-size: 1.2em;
+  color: #333;
+}
+
+#poem-container {
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 5px;
+}
+
+#poem-container p {
+  margin: 0;
+}

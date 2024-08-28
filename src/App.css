@@ -1,0 +1,96 @@
+/* Style for the main container */
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
+  min-height: 100vh; /* Full height */
+}
+
+/* Style for the heading */
+h1 {
+  font-size: 2.5rem;
+  color: #bb86fc; /* Soft purple */
+  margin-bottom: 20px;
+}
+
+/* Style for the form */
+form {
+  margin-bottom: 30px;
+}
+
+/* Style for the input field */
+input[type="text"] {
+  background-color: #333;
+  color: #fff;
+  padding: 12px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  width: 320px; /* Slightly wider */
+  margin: 10px 0;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #bb86fc; /* Match with the heading color */
+}
+
+/* Style for the button */
+button {
+  background-color: #5e4b8b; /* Dark purple */
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #4b3a6a; /* Darker on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Style for the poem container */
+.poem-container {
+  text-align: center; /* Center-align the container */
+  margin: 20px auto; /* Center the container itself */
+  max-width: 800px;
+}
+
+/* Style for the poem heading */
+.poem-heading {
+  font-size: 2rem;
+  color: #bb86fc; /* Soft purple */
+  margin-bottom: 10px;
+}
+
+/* Style for the poem text */
+.poem {
+  background-color: #222;
+  color: #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  font-size: 18px;
+  line-height: 1.5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center; /* Center-align the text */
+}
+
+/* Style for error messages */
+.error {
+  color: #cf6679; /* Soft red for errors */
+  margin-top: 20px;
+}
+
+/* Loading message styling */
+.loading {
+  font-size: 16px;
+  color: #e0e0e0;
+  margin-top: 20px;
+}
